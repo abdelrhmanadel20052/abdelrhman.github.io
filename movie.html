@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahid</title>
+    <link id="logo" rel="icon" type="image/x-icon" href="sh.jfif">
+    <link rel="stylesheet" href="movie.css">
+    <script src="https://kit.fontawesome.com/c7fe92e2d5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul class="nav-menu">
+          <li><a class="active" href="home page.html"><img id="sss" src="Shahid_logo_light.png" alt="Shahid Logo"></a></li>
+          <li><a class="active" href="">About</a></li>
+          <li><a class="active" href="">Contact</a></li>
+          <li><a class="active" href="">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <main>
+      <div class="search-container">
+        <div class="search-input">
+            <input type="text" id="myInput" placeholder="Name of movie...">
+            <i class="fa-solid fa-magnifying-glass" id="logosearch"><input type="submit" id="searchBtn" value="Search"></i>
+            <div class="autocomplete-items" id="autocomplete-list"></div>
+        </div>
+    </div>
+    
+        <div class="container">
+ 
+            <div class="movie-player">
+                <video id="videoPlayer" controls>
+                    <source src="movie.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="movie-details">
+                <img id="poster" src="action.png" alt="Movie Image">
+                <div class="movie-review">
+                 <h1>Write a Review</h1>
+                  <textarea id="review-text" rows="4" cols="50" placeholder="Write your review here..."></textarea>
+                  <button id="submit-review">Submit Review</button>
+                </div>
+                <div id="reviews-container"></div>
+            <span id="rrr"><h1 id="rt">RATING</h1></span>
+            <div class="rating">
+              <span class="star" id="star1">★</span>
+              <span class="star" id="star2">★</span>
+              <span class="star" id="star3">★</span>
+              <span class="star" id="star4">★</span>
+              <span class="star" id="star5">★</span>
+            </div>
+
+            <section>
+              <table>
+                <tr>
+                <h1 id="txt">Featured Movies</h1>
+                <div class="movie-list">
+                  <th>
+                  <div class="movie-item" id="fil1">                 
+                    <a href="#">
+                      <img id="film1" src="kh.webp" alt="Skyscraper">
+                    </a>
+                    <a href="#">
+                      <h2>Skyscraper</h2>
+                    </a>
+                    <p>An Interpol-issued Red Notice is a global alert to hunt and capture the world's most wanted.</p>
+                  </div>
+                  </th>
+                  <th>
+                  <div class="movie-item"> <a href="#">
+                      <img id="film2" src="kh.webp" alt="Movie 2">
+                    </a>
+                    <a href="#">
+                      <h2>khalid</h2>
+                    </a>
+                    <p>An Interpol-issued Red Notice is a global alert to hunt and capture the world's most wanted.</p>
+                  </div>
+                  </th>
+                  <th>
+                  <div class="movie-item">
+                    <a href="#">
+                      <img id="film3" src="kh.webp" alt="Movie 2">
+                    </a>
+                    <a href="#">
+                      <h2>ahmed</h2>
+                    </a>
+                    <p>An Interpol-issued Red Notice is a global alert to hunt and capture the world's most wanted.</p>
+                  </div>
+                  </th>
+                  <th>
+                  <div class="movie-item">
+                    <a href="#">
+                      <img id="film4" src="kh.webp" alt="Movie 2">
+                    </a>
+                    <a href="#">
+                      <h2>Red Notice</h2>
+                    </a>
+                    <p>An Interpol-issued Red Notice is a global alert to hunt and capture the world's most wanted.</p>
+                  </div>
+                  </th>
+                </div>
+                </tr>
+                </table>
+              </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+      </footer>
+
+    <script src="movie.js"></script>
+</body>
+</html>
